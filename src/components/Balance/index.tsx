@@ -23,7 +23,7 @@ export function Balance({ balance, expenses }: BalanceProps) {
         <Text style={styles.itemTitle}>Gastos</Text>
         <View style={styles.content}>
           <Text style={styles.currencySymbol}>R$</Text>
-          <Text style={styles.expenses}>{expenses}</Text>
+          <Text style={styles.expenses}> -{expenses} </Text>
         </View>
       </View>
     </View>
